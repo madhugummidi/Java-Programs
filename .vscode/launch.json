@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Strings12",
+            "request": "launch",
+            "mainClass": "Strings12",
+            "projectName": "Java Programs_8e1f079f"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",

@@ -720,6 +720,7 @@ public static void main(String[] args) {
         //max numberIndex = 3;    
     */
 
+    /* 
     public static void main(String[] args) {
         String str = "Hello World";
         String[] str1 = str.split(" ");
@@ -734,6 +735,18 @@ public static void main(String[] args) {
         }
         System.out.println(output);
     }
+    */
 
-
+    public static void main(String[] args) {
+        String str = "Hello";
+        String str1 = "AEIOUaeiou";
+        for(int i=0;i<str.length();i++)
+        {
+            char ch = str.charAt(i);
+            if(str1.contains(String.valueOf(ch)))
+            {
+                System.out.println(ch);
+            }
+        }
+    }
 }
